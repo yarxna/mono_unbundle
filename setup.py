@@ -40,7 +40,7 @@ setup(
     keywords='reverse_engineering android xamarin apk',
     packages=find_packages(),
     python_requires='>=3.5',
-    install_requires=requirements,
+    install_requires=requirements.values(),
     entry_points={
         'console_scripts': [
             'mono_unbundle=mono_unbundle.cli:cli'
